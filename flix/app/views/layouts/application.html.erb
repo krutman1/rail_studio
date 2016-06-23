@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flix Mix</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<header style="padding: 5px; color: #F0F0F0; background: #237CBE;">
+  <h1>Flix</h1>
+</header>
+<body>
+
+<%= yield %>
+
+</body>
+<footer style="text-align: center; padding: 5px; color: #237CBE; background: #F0F0F0">
+  <p>
+    Copyright &copy; 2016
+    <%= link_to 'The Pragmatic Studio','http://pragmaticstudio.com' %>
+  </p>
+</footer>
+</html>
+
